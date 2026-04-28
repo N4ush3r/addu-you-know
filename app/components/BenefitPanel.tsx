@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import type { Benefit } from "@/data/benefits";
+import type { Benefit } from "../data/benefits";
 
 interface Props {
   benefit: Benefit;
