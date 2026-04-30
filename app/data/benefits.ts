@@ -48,7 +48,7 @@ export const benefits: Benefit[] = [
     tagline: "Google AI? Yes, for free.",
     description:
       "Your AdDU Google Workspace account comes with access to Gemini Advanced — Google's most capable AI assistant. Use it for research, writing, brainstorming, and more, powered by Gemini 1.5 Pro.",
-    howTo: "Sign in to your AdDU Google Workspace account (@AdDU.edu.ph). Visit gemini.google.com and your premium access should be automatically activated.",
+    howTo: "Sign in to your AdDU Google Workspace account (@addu.edu.ph). Visit gemini.google.com and your premium access should be automatically activated.",
     emoji: "🤖",
     color: "#E8F5E9",
     accentColor: "#4CAF50",
@@ -90,7 +90,7 @@ export const benefits: Benefit[] = [
     tagline: "Word, Excel, PowerPoint — all yours.",
     description:
       "Through the Microsoft Student Advantage program, all enrolled AdDU students get the full Microsoft 365 suite for FREE. That's Word, Excel, PowerPoint, Teams, OneDrive (1TB cloud storage), and more,  on up to 5 devices!",
-    howTo: "Go to microsoft365.com and sign in with your AdDU student email (@AdDU.edu.ph). Follow the prompts to activate your free subscription and download the apps.",
+    howTo: "Go to microsoft365.com and sign in with your AdDU student email (@addu.edu.ph). Follow the prompts to activate your free subscription and download the apps.",
     emoji: "💻",
     color: "#E3F2FD",
     accentColor: "#1565C0",
@@ -105,7 +105,7 @@ export const benefits: Benefit[] = [
     description:
       "The AdDU Student Development Center (SDC) offers free, confidential counseling services for all enrolled students. Whether you're dealing with academic stress, personal challenges, or just need someone to talk to, the SDC has qualified guidance counselors ready to help.",
     howTo:
-      "Get your respective cluster's counseler contact info by emailing cwtc@AdDU.edu.ph, visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MyADDU app or the official AdDU OSA Facebook page for current schedules.",
+      "Get your respective cluster's counseler contact info by emailing cwtc@addu.edu.ph, visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MyADDU app or the official AdDU OSA Facebook page for current schedules.",
     emoji: "💬",
     color: "#F3E5F5",
     accentColor: "#9C27B0",
