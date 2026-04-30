@@ -93,6 +93,7 @@ export default function Footer() {
           <div style={{ height: "2px", background: "rgba(255,255,255,0.12)", marginBottom: "20px", borderRadius: "999px" }} />
 
           {/* Note on counseling */}
+          {/*
           <div
             style={{
               background: "rgba(255,255,255,0.07)",
@@ -118,7 +119,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-
+*/}
           {/* Bottom note */}
           <p style={{ fontFamily: "Nunito, sans-serif", fontWeight: 600, fontSize: "12px", color: "rgba(255,255,255,0.35)", margin: 0, textAlign: "center", letterSpacing: "0.5px" }}>
             This is an unofficial student guide. Information subject to change. Always verify with official ADDU channels.
