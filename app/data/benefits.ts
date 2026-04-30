@@ -75,7 +75,7 @@ export const benefits: Benefit[] = [
     title: "MyADDU App",
     tagline: "Your campus in your pocket.",
     description:
-      "The official MyADDU mobile app is your all-in-one student portal. View grades, check your schedule, see announcements, access e-services, and stay connected with the university — all from your phone.",
+      "The official MyADDU mobile app is your all-in-one student portal. View grades, check your schedule, see announcements, access e-services, and stay connected with the university, all from your phone.",
     howTo: "Download MyADDU from the Google Play Store or Apple App Store. Log in using your official ADDU student credentials.",
     emoji: "📱",
     color: "#EDE7F6",
@@ -89,7 +89,7 @@ export const benefits: Benefit[] = [
     title: "Free Microsoft 365",
     tagline: "Word, Excel, PowerPoint — all yours.",
     description:
-      "Through the Microsoft Student Advantage program, all enrolled ADDU students get the full Microsoft 365 suite for FREE. That's Word, Excel, PowerPoint, Teams, OneDrive (1TB cloud storage), and more — on up to 5 devices!",
+      "Through the Microsoft Student Advantage program, all enrolled ADDU students get the full Microsoft 365 suite for FREE. That's Word, Excel, PowerPoint, Teams, OneDrive (1TB cloud storage), and more,  on up to 5 devices!",
     howTo: "Go to microsoft365.com and sign in with your ADDU student email (@addu.edu.ph). Follow the prompts to activate your free subscription and download the apps.",
     emoji: "💻",
     color: "#E3F2FD",
@@ -98,14 +98,14 @@ export const benefits: Benefit[] = [
     tag: "Productivity",
   },
   {
-    id: "counselling",
+    id: "counseling",
     number: 7,
-    title: "Free Counselling Services",
+    title: "Free Counseling Services",
     tagline: "Your mental health matters here.",
     description:
-      "The ADDU Student Development Center (SDC) offers free, confidential counseling services for all enrolled students. Whether you're dealing with academic stress, personal challenges, or just need someone to talk to — the SDC has qualified guidance counselors ready to help.",
+      "The ADDU Student Development Center (SDC) offers free, confidential counseling services for all enrolled students. Whether you're dealing with academic stress, personal challenges, or just need someone to talk to, the SDC has qualified guidance counselors ready to help.",
     howTo:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MyADDU app or the official ADDU OSA Facebook page for current schedules.",
+      "Get your respective cluster's counselero contact info through by emailing cwtc@addu.edu.ph, or visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MyADDU app or the official ADDU OSA Facebook page for current schedules.",
     emoji: "💬",
     color: "#F3E5F5",
     accentColor: "#9C27B0",
