@@ -51,7 +51,7 @@ export const benefits: Benefit[] = [
     howTo: "Sign in to your AdDU Google Workspace account (@addu.edu.ph). Visit gemini.google.com and your premium access should be automatically activated.",
     emoji: "🤖",
     color: "#E8F5E9",
-    accentColor: "#4CAF50",
+    accentColor: "#4caf50",
     textColor: "#1B5E20",
     tag: "AI & Tech",
   },
@@ -105,7 +105,7 @@ export const benefits: Benefit[] = [
     description:
       "The AdDU Student Development Center (SDC) offers free, confidential counseling services for all enrolled students. Whether you're dealing with academic stress, personal challenges, or just need someone to talk to, the SDC has qualified guidance counselors ready to help.",
     howTo:
-      "Get your respective cluster's counseler contact info by emailing cwtc@addu.edu.ph, visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MyADDU app or the official AdDU OSA Facebook page for current schedules.",
+      "Get your respective cluster's counseler contact info by emailing cwtc@addu.edu.ph, visit the Student Development Center office on campus during operating hours, or inquire at the Office of Student Affairs (OSA) for scheduling details and appointment procedures. Check the MYADDU app or the official AdDU OSA Facebook page for current schedules.",
     emoji: "💬",
     color: "#F3E5F5",
     accentColor: "#9C27B0",
