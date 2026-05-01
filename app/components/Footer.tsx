@@ -1,3 +1,6 @@
+import Image from "next/image";
+import adduImage from "../data/addu u know.png";
+
 export default function Footer() {
   return (
     <footer
@@ -92,34 +95,42 @@ export default function Footer() {
           {/* Divider */}
           <div style={{ height: "2px", background: "rgba(255,255,255,0.12)", marginBottom: "20px", borderRadius: "999px" }} />
 
-          {/* Note on counseling */}
-          {/*
+{/* Note on counseling */}
           <div
             style={{
               background: "rgba(255,255,255,0.07)",
-              border: "2px solid rgba(201,168,76,0.4)",
+              border: "2px solid rgba(235, 229, 213, 0.4)",
               borderRadius: "12px",
               padding: "16px 20px",
-              marginBottom: "24px",
+              
+              // 1. Centering the box itself on the page
+              margin: "0 auto 24px auto", 
+              width: "fit-content", 
+              
+              // 2. Centering the content inside the box
               display: "flex",
+              flexDirection: "column", 
+              alignItems: "center", 
+              justifyContent: "center",
+              textAlign: "center", 
               gap: "12px",
-              alignItems: "flex-start",
-              flexWrap: "wrap",
             }}
           >
-            <span style={{ fontSize: "1.4rem", flexShrink: 0 }}>📝</span>
-            <div>
-              <p style={{ fontFamily: "Bangers, cursive", fontSize: "14px", letterSpacing: "1.5px", color: "#C9A84C", margin: "0 0 6px" }}>
-                NOTE ON COUNSELING INFO
-              </p>
-              <p style={{ fontFamily: "Nunito, sans-serif", fontWeight: 600, fontSize: "13px", color: "rgba(255,255,255,0.7)", margin: 0, lineHeight: 1.6 }}>
-                The counseling section contains placeholder text. Please verify the exact schedule,
-                contact details, and appointment procedure with the ADDU Student Development Center
-                (SDC) or the Office of Student Affairs (OSA) directly for the most accurate information.
-              </p>
-            </div>
+            <p style={{ fontFamily: "Bangers, cursive", fontSize: "14px", letterSpacing: "1.5px", color: "#C9A84C", margin: "0" }}>
+              Share the website! Scan the QR here:
+            </p>
+
+            <Image 
+              src={adduImage} 
+              alt="AdDU Counseling Info" 
+              style={{ 
+                maxWidth: "100%", 
+                height: "auto", 
+                borderRadius: "8px" 
+              }} 
+            />
           </div>
-*/}
+
           {/* Bottom note */}
           <p style={{ fontFamily: "Nunito, sans-serif", fontWeight: 600, fontSize: "12px", color: "rgba(255,255,255,0.35)", margin: 0, textAlign: "center", letterSpacing: "0.5px" }}>
             This is an unofficial student guide. Information subject to change. Always verify with official ADDU channels.
